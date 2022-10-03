@@ -6,17 +6,21 @@
 .header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;  
+    background-color: #FFFFFF;
+    width: 100%vw;
 }
-
 
 
 
 .logo {
     display: flex;
-    justify-content: center;
     width: 155px;
     height:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -26,16 +30,28 @@
     justify-content: center;
 } 
 
-.item {
+.listado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+
+.nav-items {
     font-family: 'Rubik', sans-serif;
+    color: #4a4a4a;
     text-decoration: none;
 }
 
 
 .main {
 
-    display: block;
-    background-color:#3CDBC0;  
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:#3CDBC0;
+    flex-direction: row;  
     
 }
 
@@ -43,4 +59,19 @@
     font-family: 'Rubik', sans-serif;
     color:#FFFFFF;
     font-size: 30px;
+    text-align: center;
+    
+}
+
+@media(min-widh:768px) {
+
+    .h1 {
+        font-size: 40px;
+    }
+    .listado {
+        align-items: flex-end;
+    }
+    .nav-items {
+        font-size:16px;
+    }
 }
