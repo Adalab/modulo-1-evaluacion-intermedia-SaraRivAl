@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 155px;
+    height:auto;
+
+}
+
+
+.navegador {
+    display: flex;
+    justify-content: center;
+} 
+
+.item {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+
+.main {
+
+    display: block;
+    background-color:#3CDBC0;  
+    
+}
+
+.h1 {
+    font-family: 'Rubik', sans-serif;
+    color:#FFFFFF;
+    font-size: 30px;
+}
